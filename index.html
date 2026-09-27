@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoGebra AI Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Outfit', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            },
+            colors: {
+              teal: {
+                50: '#effcfc',
+                100: '#d6f5f5',
+                200: '#b0eaeb',
+                300: '#7adada',
+                400: '#3ec3c4',
+                500: '#1ea7a9',
+                600: '#17868e',
+                700: '#186c73',
+                800: '#1a575e',
+                900: '#1a4950',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for logs */
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.05);
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: rgba(23, 134, 142, 0.2);
+        border-radius: 10px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: rgba(23, 134, 142, 0.4);
+      }
+    </style>
+ 
+</head>
+  <body class="bg-slate-50 text-slate-800 overflow-hidden">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script> 
+  </body>
+</html>

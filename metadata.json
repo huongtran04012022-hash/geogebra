@@ -1,0 +1,5 @@
+{
+  "name": "GeoGebra AI Architect",
+  "description": "An intelligent geometry assistant that converts natural language descriptions into precise GeoGebra constructions using Gemini API.",
+  "requestFramePermissions": []
+}
