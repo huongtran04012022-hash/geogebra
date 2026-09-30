@@ -111,7 +111,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onGenerate, onClear, logs, isLoading 
           </div>
           <div>
             <h1 className="font-bold text-xl text-slate-800 tracking-tight">GeoGebra <span className="text-teal-600">AI</span></h1>
-            <p className="text-xs text-teal-600/80 font-medium uppercase tracking-wider">Nguyễn Hữu Phúc</p>
+            <p className="text-xs text-teal-600/80 font-medium uppercase tracking-wider">Trần Thị Hương</p>
           </div>
         </div>
       </div>
